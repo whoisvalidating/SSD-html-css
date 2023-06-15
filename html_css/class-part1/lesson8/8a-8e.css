@@ -1,0 +1,93 @@
+div {
+  margin-bottom: 110px;
+}
+.aName,
+.aEmail {
+  display: block;
+  width: 200px;
+  border-radius: 2px;
+  border-style: solid;
+}
+.aName {
+  margin-bottom: 5px;
+}
+
+.bTxt{
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+.c { 
+  display: flex;
+  flex-direction: column;
+
+}
+.cImg {
+  margin: 10px 200px;
+}
+.cTxt {
+  height: 32px;
+  margin: 10px 75px;
+  padding-left: 10px;
+  border-radius: 18px;
+  border-style: none;
+  box-shadow: 0 0 10px .5px rgba(0, 0, 0, .2);
+}
+
+.dName {
+  width: 125px;
+  height: 25px;
+}
+.dNameLast {
+  width: 125px;
+  height: 25px;
+}
+.dEmail {
+  display: block;
+  width: 260px;
+  height: 25px;
+  margin: 8px 0px;
+}
+.dSign {
+  width: 265px;
+  height: 30px;
+  border: none;
+  background-color: rgb(36, 163, 248);
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.eRide {
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 16px;
+}
+.eLoc{
+  display: block;
+  margin-bottom: 4px;
+  width: 280px;
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(213, 213, 230);
+}
+.eDest {
+  display: block;
+  margin-bottom: 25px;
+  width: 280px;
+  padding: 5px 10px;
+  background-color: rgb(213, 213, 230);
+  border: none;
+}
+.eButton {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+.eButton2 {
+  padding: 10px 20px;
+  border: none;
+  margin-left: 10px;
+  background-color: rgb(213, 213, 230);
+}
