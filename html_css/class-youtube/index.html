@@ -5,48 +5,203 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
 </head>
 <body>
-  <input class="search-bar" type="text" placeholder="Search">
-  <div class="videoPre">
-    <div class="thumbnailRow">
-      <img class="thumbnail" src="./assets/thumbnail-1.webp" alt="these guys wish they were abk">
+  <div class="header">
+    <div class="leftSection">
+      <img class="hambergerMenu" src="icons/hamburger-menu.svg">
+      <img class="youtubeLogo" src="icons/youtube-logo.svg">
     </div>
-    <div>
+    <div class="midSection">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="searchButton">
+        <img class="searchIcon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voiceButton">
+        <img class="voiceIcon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice!</div>
+      </button>
+    </div>
+    <div class="rightSection">
+      <div class="upload-icon-container">
+        <img class="upload-pic" src="icons/upload.svg">
+        <div class="tooltip">create</div>
+      </div>
+      <div class="youtube-apps-container">
+        <img class="youtube-apps-pic" src="icons/youtube-apps.svg">
+        <div class="tooltip">Youtube Apps</div>
+      </div>
+      <div class="notification-icon-container">
+      <img class="notifications-pic" src="icons/notifications.svg">
+            <div class="notifications-count">3</div>
+            <div class="tooltip">alerts</div>
+      </div>
+      <img class="active-user-pic" src="profile-pic/my-channel.jpeg">
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sidebarLink">
+      <img src="extra/home.svg">
+      <div>home</div>
+    </div>
+    <div class="sidebarLink">
+      <img src="extra/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebarLink">
+      <img src="extra/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebarLink">
+      <img src="extra/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebarLink">
+      <img src="extra/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebarLink">
+      <img src="extra/library.svg">
+      <div>Library</div>
+    </div>
+  </div>
+  <div class="video-grid">
+    <div class="videoPre">
+      <div class="thumbnailRow">
+        <img class="thumbnail" src="./assets/thumbnail-1.webp" alt="these guys wish they were abk">
+        <div class="thumbnailTime">14:20</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profileImg">
+          <img  class="profilePic" src="profile-pic/channel-1.jpeg" alt="mark">
+        </div>
+        <div class="videoInfo">
+          <p class="videoTitle">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <P class="videoAuthor">
+            Marques Brownlee
+          </P>
+          <p class="videoStats">
+            3.4M views &#xB7; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="videoPre">
+      <div class="thumbnailRow">
+        <img class="thumbnail" src="./assets/thumbnail-2.webp" alt="these guys wish they were abk">
+        <div class="thumbnailTime">8:22</div>
+      </div>
+      <div class="video-info-grid">
       <div class="profileImg">
-        <img  class="profilePic" src="profile-pic/channel-1.jpeg" alt="mark">
+        <img class="profilePic" src="profile-pic/channel-2.jpeg">
       </div>
       <div class="videoInfo">
         <p class="videoTitle">
-          Talking Tech and AI with Google CEO Sundar Pichai!
+          Try Not To Laugh Challenge #9
         </p>
         <P class="videoAuthor">
-          Marques Brownlee
+          Markiplier
         </P>
         <p class="videoStats">
-          3.4M views &#xB7; 6 months ago
+          19M views &#xB7; 4 years ago
         </p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="videoPre">
-    <div class="thumbnailRow">
-      <img class="thumbnail" src="./assets/thumbnail-2.webp" alt="these guys wish they were abk">
+    <div class="videoPre">
+      <div class="thumbnailRow">
+        <img class="thumbnail" src="./assets/thumbnail-3.webp" alt="these guys wish they were abk">
+        <div class="thumbnailTime">9:13</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profileImg">
+          <img  class="profilePic" src="profile-pic/channel-3.jpeg" alt="mark">
+        </div>
+        <div class="videoInfo">
+          <p class="videoTitle">
+            Crazy Tik Toks Taken Moments Before DISASTER
+          </p>
+          <P class="videoAuthor">
+            SSSniperWolf
+          </P>
+          <p class="videoStats">
+            12M views &#xB7; 1 year ago
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="profileImg">
-      <img class="profilePic" src="profile-pic/channel-2.jpeg">
+    <div class="videoPre">
+      <div class="thumbnailRow">
+        <img class="thumbnail" src="./assets/thumbnail-4.webp" alt="these guys wish they were abk">
+        <div class="thumbnailTime">22:09</div>
+      </div>
+      <div class="video-info-grid">
+      <div class="profileImg">
+        <img class="profilePic" src="profile-pic/channel-4.jpeg">
+      </div>
+      <div class="videoInfo">
+        <p class="videoTitle">
+          The Simplest Math Problem No One Can Solve - Collatz Conjecture
+        </p>
+        <P class="videoAuthor">
+          Veritasium
+        </P>
+        <p class="videoStats">
+          18M views &#xB7; 4 months ago
+        </p>
+        </div>
+      </div>
     </div>
-    <div class="videoInfo">
-      <p class="videoTitle">
-        Try Not To Laugh Challenge #9
-      </p>
-      <P class="videoAuthor">
-        Markiplier
-      </P>
-      <p class="videoStats">
-        19M views &#xB7; 4 years ago
-      </p>
+    <div class="videoPre">
+      <div class="thumbnailRow">
+        <img class="thumbnail" src="./assets/thumbnail-5.webp" alt="these guys wish they were abk">
+        <div class="thumbnailTime">11:17</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="profileImg">
+          <img  class="profilePic" src="profile-pic/channel-5.jpeg" alt="mark">
+        </div>
+        <div class="videoInfo">
+          <p class="videoTitle">
+            Kadane's Algorithm to Maximum Sum Subarray Problem
+          </p>
+          <P class="videoAuthor">
+            CS Dojo
+          </P>
+          <p class="videoStats">
+            519k views &#xB7; 5 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="videoPre">
+      <div class="thumbnailRow">
+        <img class="thumbnail" src="./assets/thumbnail-6.webp" alt="these guys wish they were abk">
+        <div class="thumbnailTime">19:59</div>
+      </div>
+      <div class="video-info-grid">
+      <div class="profileImg">
+        <img class="profilePic" src="profile-pic/channel-6.jpeg">
+      </div>
+      <div class="videoInfo">
+        <p class="videoTitle">
+          Anything You Can Fit In The Circle I’ll Pay For
+        </p>
+        <P class="videoAuthor">
+          MrBeast
+        </P>
+        <p class="videoStats">
+          14M views &#xB7; 1 year ago
+        </p>
+        </div>
+      </div>
     </div>
   </div>
 </body>

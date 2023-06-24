@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.box1 {
+  background-color: rgb(26, 26, 26);
+  padding: 10px;
+}
+.imgbox {
+  
+}
+.pfp {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+.box2{
+  background-color: rgb(66, 66, 66);
+  padding: 10px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding-right: 80px;
+}
+.add {
+  color: rgb(173, 173, 173);
+  font-weight: bold;
+}
+.sub {
+  color: rgb(173, 173, 173);
+}
+.subgroup {
+  font-size: 12px;
+  padding: 5px 0;
+}

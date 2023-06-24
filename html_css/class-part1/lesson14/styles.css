@@ -1,0 +1,106 @@
+body {
+  height: 3000px;
+  background-color: aquamarine;
+}
+/* .a14 {
+  color: white;
+  background-color: black;
+  position: fixed; 
+  bottom: 20px;
+  right: 20px;
+}
+*/
+.b14 {
+  background-color: green;
+  color: white;
+  position: fixed; 
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+}
+/* .black {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+*/
+/*
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .6);
+  display: flex; 
+  justify-content: center;  
+}
+.overlayBox {
+  background-color: white;
+  border-radius: 6px;
+  align-self: center;
+  padding: 15px 300px 15px 15px;
+}
+.alert {
+  font-weight: bold;
+  font-size: 24px;
+}
+.overlayModal {
+  padding: 10px 0;
+}
+.overlayButton {
+
+}
+*/
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  justify-content: space-between;
+  padding: 5px 80px 5px 80px;
+  background-color: white;
+}
+.headerone {
+  display: flex;
+  align-items: center;
+}
+.headertwo {
+  display: flex;
+  align-items: center;
+}
+.headerPfp {
+
+}
+.pfp {
+  height: 40px;
+  width: 40px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.headerName {
+  font-weight: bold;
+  margin-left: 10px;
+}
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border-style: none;
+  font-weight: bold;
+}
+.addButton {
+  margin-right: 5px;
+  background-color: rgb(47, 127, 248);
+  color: white;
+}
+.messageButton {
+  background-color: rgb(214, 214, 214);
+}

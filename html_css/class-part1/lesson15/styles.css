@@ -1,0 +1,72 @@
+body {
+  height: 1500px;
+  margin: 0;
+}
+.a {
+  background-color: black;
+  color: white;
+  position: absolute;
+  padding: 3px 8px;
+  border-radius: 15px;
+  text-align: center;
+  left: -10px;
+  top: -10px;
+}
+.b {
+  background-color: gray;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  height: 180px;
+}
+.c {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  background-color: rgba(0, 0, 0, .9);
+  color: white;
+  padding: 3px;
+  border-radius: 2px;
+  font-size: 13px;
+}
+
+.d {
+
+}
+.shirt {
+  position: relative;
+  display: inline-block;
+}
+.shirtPic {
+  width: 200px;
+}
+.off {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, .9);
+  padding: 3px;
+  border-radius: 1px;
+}
+.cartContainer {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.addTo {
+  align-self: center;
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
